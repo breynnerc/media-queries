@@ -1,1 +1,41 @@
 @charset "UTF-8";
+
+@media print{
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px ) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#icel{ 
+        display: none;
+    }
+    
+    img#itablet{
+        display: block;
+    }
+    
+    img#iprint{
+        display: none;
+    }
+    
+    img#ipc{
+        display: none;
+    }
+    
+    img#itv{
+        display: none;
+    }
+    
+
+}
+
+@media screen and ( min-widht: 992px) and ( max-width: 1200px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
